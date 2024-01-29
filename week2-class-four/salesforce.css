@@ -1,0 +1,552 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.emma101{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255,255,255);
+    border-bottom: 1px solid #808080;
+    overflow: hidden;
+    width: 100%;
+    /* position: fixed; */
+    cursor: pointer;
+    margin-bottom: 5px;
+
+
+}
+
+.emma201{
+    margin-right: 100px;
+
+}
+.emma201 img{
+    /* padding: 15px; */
+    height: 30px;
+     width: 40px; 
+    margin-right: 4px;
+    justify-content: space-between;
+     /* gap: 20px; */
+     cursor: pointer;
+}
+
+.emma301 button{
+    cursor: pointer;
+    background-color: rgb(46,132,74);
+    color: white;
+    border: 1px solid rgb(46,132,74);
+    padding: 10px;
+    border-radius:2px;
+    margin-right: 10px;
+
+}
+
+.emma301 button :hover{
+    background-color: darkblue;
+}
+
+.emma201 ul li:hover{
+    color: blue;
+}
+
+.sun{
+    background: url(./section1-img.jpg);
+    margin-top: 10px;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.sun101 h1{
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 15px;
+    color: rgb(3,45,96);
+
+}
+    
+.sun101 p{
+    font-size: large;
+    color:black;
+    margin-bottom: 20px;
+}
+
+.sun101{
+    padding-block: 120px;
+    padding-left: 70px;
+
+}
+
+.sun104{
+    display: flex;
+    gap: 20px;
+
+
+}
+.sun102 button{
+    cursor: pointer;
+    background-color:rgb(1,118,211);
+    font-size: 15px;
+    padding: 10px 30px;
+    margin-bottom: 10px;
+    color:rgb(255,255,255) ;
+    border-radius: 2px;
+    border: 1px solid rgb(0,103,184)
+
+}
+
+.sun103 button{
+    cursor: pointer;
+    background-color:white;
+    font-size: 15px;
+    padding: 10px 30px;
+    margin-bottom: 10px;
+    color: navy;
+    border-radius: 2px;
+    border: 2px solid rgb(0,103,184)    
+
+}
+
+.sun102 button:hover{
+    background-color: navy;
+}
+
+
+.sun103 button:hover{
+    background-color: wheat;
+}
+
+
+.moon501 h2{
+    /* justify-content: center; */
+    align-items: center;
+    font-size: bold;
+    margin-left: 510px;
+    color: rgb(3,45,96);
+    font-size: 35px;
+    margin-bottom: 30px;
+    
+}
+
+.moon101{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 20px;
+    /* width: 33.3%; */
+    justify-content: center;
+
+}
+
+.moon201{
+    /* width: 33.3%; */
+    border-radius: 10px;
+    /* box-shadow: 20px; */
+    border: 2px solid whitesmoke;
+    border-width: 5px;
+    box-shadow: wheat;
+    
+}
+
+.moon201 img{
+    height: 200px;
+    width: 350px;
+    cursor: pointer;
+}
+
+
+.moon201 h3{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    justify-content: center;
+    margin-top: 70px;
+    color: rgb(3,45,96);
+    cursor: pointer;
+
+
+}
+
+.moon201 a{
+    line-height: 20px;
+    justify-content: center;
+    margin-bottom: 40px;
+    cursor: pointer;
+    /* margin-top: 40px; */
+}
+
+.moon301{
+    /* width: 33.3%; */
+    border-radius: 10px;
+    border: 2px solid whitesmoke;
+    border-width: 5px; 
+}
+.moon301 img{
+    height: 200px;
+    width: 350px;
+    cursor: pointer;
+}
+
+
+.moon301 h3{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    justify-content: center;
+    margin-top: 70px;
+    color: rgb(3,45,96);
+    cursor: pointer;
+
+
+}
+
+.moon301 a{
+    line-height: 20px;
+    justify-content: center;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+
+
+
+.moon401{
+    /* width: 33.3%; */
+    border-radius: 10px;
+    border: 2px solid whitesmoke;
+    border-width: 5px;
+}
+
+.mmon401 img{
+    /* height: 100px; */
+    width: 50px;
+    cursor: pointer;
+}
+
+
+
+.moon401 h3{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    justify-content: center;
+    margin-top: 70px;
+    color: rgb(3,45,96);
+    cursor: pointer;
+
+
+}
+
+.moon401 a{
+    line-height: 20px;
+    justify-content: center;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+
+.moon201 h3:hover{
+    color: blue;
+}
+
+
+.moon201 a:hover{
+    color: blue;
+
+}
+
+
+
+.moon301 h3:hover{
+    color: blue;
+}
+
+
+.moon301 a:hover{
+    color: blue;
+
+}
+
+.moon401 h3:hover{
+    color: blue;
+}
+
+
+.moon401 a:hover{
+    color: blue;
+
+}
+
+.hope{
+    justify-content: center;
+}
+
+.hope100 h1{
+    /* justify-content: center; */
+    margin-left: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(3,45,96);
+}
+
+.hope101{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+
+}
+.hope102{
+    width: 25%;
+
+}
+.hope102 h1{
+    font-size: 29px;
+    font-style: normal;
+    font-weight: bold;
+    margin-bottom: 30px;
+
+}
+
+.hope102 img{
+    width: 280px;
+}
+
+.hope102 p{
+    margin-bottom: 30px;
+
+}
+
+.hope201{
+    width: 25%;
+
+}
+.hope201 h1{
+    font-size: 29px;
+    font-style: normal;
+    font-weight: bold;
+    margin-bottom: 30px;
+
+}
+
+.hope201 img{
+    width: 280px;
+}
+
+.hope201 p{
+    margin-bottom: 30px;
+
+}
+
+.hope301{
+    width: 25%;
+
+}
+.hope301 h1{
+    font-size: 29px;
+    font-style: normal;
+    font-weight: bold;
+    margin-bottom: 30px;
+
+}
+
+.hope301 img{
+    width: 280px;
+}
+
+.hope301 p{
+    margin-bottom: 30px;
+
+}
+
+
+
+.hope401{
+    width: 25%;
+
+}
+.hope401 h1{
+    font-size: 29px;
+    font-style: normal;
+    font-weight: bold;
+    margin-bottom: 30px;
+
+}
+
+.hope401 img{
+    width: 280px;
+}
+
+.hope401 p{
+    margin-bottom: 30px;
+
+}
+
+.hope101 a:hover{
+    color: blue;
+}
+
+.dad{
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.dad101{
+    /* align-items: center; */
+    justify-content: center;
+    
+    
+}
+
+.dad201{
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: center;
+    gap: 35px;
+    
+
+}
+
+.dad101 h1{
+    margin-bottom: 25px;
+    margin-top: 60px;
+    color: rgb(3,45,96);
+    margin-left: 400px;
+}
+
+.dad101 p{
+    font-size: large;
+    line-height: 35px;
+    margin-left: 280px;
+}
+
+.dad101 button{
+    margin-left: 600px;
+    cursor: pointer;
+    background-color: white;
+    color: blue;
+    border: 1.5px solid blue;
+    padding: 15px;
+    border-radius:3px;
+    margin-top: 30px;
+
+
+}
+
+.dad101 button:hover{
+    background-color: lightgrey;
+
+}
+
+.dad201 img{
+    width: 60px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.dad201 h5{
+    color: rgb(3,45,96) ;
+    margin-bottom: 30px;
+}
+
+
+.dad202 :hover{
+    color: blue;
+    cursor: pointer;
+}
+
+
+.dad301 :hover{
+    color: blue;
+    cursor: pointer;
+}
+
+
+.dad401 :hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.dad501 :hover{
+    color: blue;
+    cursor: pointer;
+}
+
+
+
+
+.yes{
+    background-image: url(./sec5-one.webp);
+    margin-top: 20px;
+    background-image: no-repeat;
+    background-size:cover ; 
+    height: 150px;
+    margin-bottom: ;
+    
+}
+
+.yes101{
+    /* align-items: center; */
+    /* margin-left: 550px; */
+}
+
+.yes101{
+    margin-top: 120px;
+}
+
+.yes101 :nth-child(2){
+    margin-left: 550px;
+    font-size: 40px;
+}
+
+.yes101 :nth-child(1){
+    margin-left: 390px;
+    font-size: 40px;
+}
+
+.yes101 :nth-child(3){
+    margin-left: 400px;
+    margin-top: 25px;
+}
+
+
+.yes101 button{
+    
+     margin-left: 600px;
+    cursor: pointer;
+     background-color: white;
+    color: blue;
+    border: 1.5px solid blue;
+    padding: 15px;
+    border-radius:3px;
+    margin-top: 30px;
+    
+}
+
+    
+.yes101 button:hover{
+    background-color: lightgrey;
+
+}
+
+.yes201 img{
+    width: 150px;
+    border: 2px solid whitesmoke ;
+    border-width: 5px;
+    border-radius: 10px;
+    margin-top: 50px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.yes201{
+    display: flex;
+    margin-left: 300px;
+    gap: 20px;
+    
+}
+
+.food101{
+    text-align: center;
+    margin-top: 8cm;
+}
